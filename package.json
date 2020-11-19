@@ -1,0 +1,24 @@
+{
+  "name": "ecommerce-store",
+  "version": "1.0.0",
+  "description": "authentication system",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vaibhav Jain",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "connect-flash": "^0.1.1",
+    "connect-mongodb-session": "^2.4.1",
+    "csurf": "^1.11.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "helmet": "^4.2.0",
+    "mongoose": "^5.10.15",
+    "passport": "^0.4.1"
+  }
+}
